@@ -33,24 +33,29 @@ const Navbar = () => {
               <MdOutlineClose size={30} color="#fff" onClick={handleSidebar} />
             )}
           </div>
-          {showSidebar && (
-            <div className="absolute h-full w-8/12 bg-[#222] top-0 left-0 z-50">
-              <ul className="flex flex-col items-center gap-16 mt-[100px]">
-                <li className="text-white text-lg">
-                  <a href="">Home</a>
-                </li>
-                <li className="text-white text-lg">
-                  <a href="">About</a>
-                </li>
-                <li className="text-white text-lg">
-                  <a href="">Services</a>
-                </li>
-                <li className="text-white text-lg">
-                  <a href="">Contact</a>
-                </li>
-              </ul>
-            </div>
-          )}
+
+          <div
+            className={
+              showSidebar
+                ? "absolute h-full w-8/12 bg-[#222] top-0 left-0 z-50 ease-in-out duration-300 md:hidden"
+                : "absolute h-full w-8/12 bg-[#222] top-0 left-[-1000px] z-50 ease-in-out duration-300 md:hidden"
+            }
+          >
+            <ul className="flex flex-col items-center gap-16 mt-[100px]">
+              <li className="text-white text-lg">
+                <a href="">Home</a>
+              </li>
+              <li className="text-white text-lg">
+                <a href="">About</a>
+              </li>
+              <li className="text-white text-lg">
+                <a href="">Services</a>
+              </li>
+              <li className="text-white text-lg">
+                <a href="">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </>
