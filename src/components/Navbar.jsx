@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className="w-full h-[82.18px] bg-[#222] opacity-90 px-12 flex">
+      <div className="w-full h-[82.18px] bg-[#222] px-12 flex">
         <div className="max-w-[1440px] flex justify-between mx-auto w-full items-center ">
           <div className=" flex justify-between items-center w-full">
             <div className="">
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div
             className={
               showSidebar
-                ? "absolute h-full w-8/12 bg-[#222] top-0 left-0 z-50 ease-in-out duration-300 md:hidden"
+                ? "absolute h-full w-8/12 bg-[#222] top-0 left-0 z-50 ease-in-out duration-300 md:hidden "
                 : "absolute h-full w-8/12 bg-[#222] top-0 left-[-1000px] z-50 ease-in-out duration-300 md:hidden"
             }
           >
