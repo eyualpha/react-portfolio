@@ -28,7 +28,7 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className=" flex mt-12 gap-8">
+          <div className=" flex flex-col sm:flex-row w-full justify-center mt-12 gap-8">
             <button className="bg-white  sm:text-2xl  text-xl  py-2 sm:px-8 px-4 rounded-full">
               Get In Touch
             </button>
