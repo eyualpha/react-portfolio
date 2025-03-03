@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Experience from "./components/Experience";
+import ExperienceWith from "./components/ExperienceWith";
 import Projects from "./components/Projects";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
-      <Experience />
+      <ExperienceWith />
       <Projects />
     </>
   );

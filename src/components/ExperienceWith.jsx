@@ -4,7 +4,7 @@ import reactjs from "../assets/reactjs.png";
 import javascript from "../assets/javascript.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
-const Experience = () => {
+const ExperienceWith = () => {
   return (
     <>
       <div className="w-full bg-[#161513] text-[#C5C5C5] py-12">
@@ -24,4 +24,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default ExperienceWith;
