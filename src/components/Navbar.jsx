@@ -19,10 +19,18 @@ const Navbar = () => {
             </div>
             {/* DESKTOP MENU */}
             <ul className=" hidden md:flex items-center gap-16">
-              <li className="text-white text-lg">Home</li>
-              <li className="text-white text-lg">About</li>
-              <li className="text-white text-lg">Services</li>
-              <li className="text-white text-lg">Contact</li>
+              <li className="text-white text-lg">
+                <a href="">Home</a>
+              </li>
+              <li className="text-white text-lg">
+                <a href="">Projects</a>
+              </li>
+              <li className="text-white text-lg">
+                <a href="">Experience</a>
+              </li>
+              <li className="text-white text-lg">
+                <a href="">Contact</a>
+              </li>
             </ul>
           </div>
           {/* MOBILE MENU */}
@@ -46,10 +54,10 @@ const Navbar = () => {
                 <a href="">Home</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">About</a>
+                <a href="">Projects</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">Services</a>
+                <a href="">Experience</a>
               </li>
               <li className="text-white text-lg">
                 <a href="">Contact</a>
