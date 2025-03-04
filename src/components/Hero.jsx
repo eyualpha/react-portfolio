@@ -3,7 +3,10 @@ import avatar from "../assets/avatar.png";
 const Hero = () => {
   return (
     <>
-      <div className=" w-full flex justify-center bg-[#161513]  mx-auto h-screen pt-6">
+      <div
+        className=" w-full flex justify-center bg-[#161513]  mx-auto h-screen pt-6"
+        id="home"
+      >
         <div className="max-w-[1440px] flex mx-auto w-full items-center flex-col px-12">
           <div className="w-full justify-center flex mt-8 relative">
             <img src={avatarBackground} alt="" className=" flex " />
@@ -13,7 +16,6 @@ const Hero = () => {
             <h1>
               I do code and make content{" "}
               <span className=" text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-purple-800">
-                {" "}
                 about it!
               </span>
             </h1>
@@ -29,12 +31,16 @@ const Hero = () => {
           </div>
 
           <div className=" flex flex-col sm:flex-row w-full justify-center mt-12 gap-8">
-            <button className="bg-white  sm:text-2xl  text-xl  py-2 sm:px-8 px-4 rounded-full">
-              Get In Touch
-            </button>
-            <button className="bg-black text-white  sm:text-2xl text-xl  py-2 sm:px-8 px-4 rounded-full border-2 border-white">
-              Download Cv
-            </button>
+            <a href="#contact" className="w-full max-w-[400px]">
+              <button className="bg-white  sm:text-2xl  text-xl  py-2 sm:px-8 px-4 rounded-full w-full">
+                Get In Touch
+              </button>
+            </a>
+            <a href="#contact" className="w-full  max-w-[400px]">
+              <button className="bg-black text-white  sm:text-2xl text-xl  py-2 sm:px-8 px-4 rounded-full border-2 border-white w-full ">
+                Download Cv
+              </button>
+            </a>
           </div>
         </div>
       </div>

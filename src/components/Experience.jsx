@@ -5,7 +5,10 @@ import metaIcon from "../assets/meta-logo.png";
 
 const Experience = () => {
   return (
-    <div className=" w-full bg-[#161513] p-12 flex  justify-center">
+    <div
+      className=" w-full bg-[#161513] p-12 flex  justify-center"
+      id="experience"
+    >
       <div className=" max-w-[1280px] w-full mx-auto flex items-center flex-col">
         <h1 className="p-0 text-4xl md:text-5xl text-transparent bg-gradient-to-b from-[#5BADFF] bg-clip-text to-[#1373D1] text-center font-extrabold uppercase">
           Experience

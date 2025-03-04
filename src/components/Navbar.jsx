@@ -20,16 +20,16 @@ const Navbar = () => {
             {/* DESKTOP MENU */}
             <ul className=" hidden md:flex items-center gap-16">
               <li className="text-white text-lg">
-                <a href="">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">Experience</a>
+                <a href="#experience">Experience</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -48,19 +48,20 @@ const Navbar = () => {
                 ? "absolute h-full w-8/12 bg-[#222] top-0 left-0 z-50 ease-in-out duration-300 md:hidden "
                 : "absolute h-full w-8/12 bg-[#222] top-0 left-[-1000px] z-50 ease-in-out duration-300 md:hidden"
             }
+            onClick={() => setShowSidebar(false)}
           >
             <ul className="flex flex-col items-center gap-16 mt-[100px]">
               <li className="text-white text-lg">
-                <a href="">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">Experience</a>
+                <a href="#experience">Experience</a>
               </li>
               <li className="text-white text-lg">
-                <a href="">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
